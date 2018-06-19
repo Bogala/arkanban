@@ -32,9 +32,6 @@ namespace ARKanban
             // set the scene to the view
             SceneView.Scene = scene;
 
-            // allows the user to manipulate the camera
-            SceneView.AllowsCameraControl = true;
-
             // show statistics such as fps and timing information
             SceneView.ShowsStatistics = true;
 

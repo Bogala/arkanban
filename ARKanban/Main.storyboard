@@ -21,16 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqo-ui-oDQ" misplaced="YES">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqo-ui-oDQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="792"/>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qqo-ui-oDQ" firstAttribute="top" secondItem="naa-5p-bsG" secondAttribute="bottom" id="0vG-nr-X0S"/>
-                            <constraint firstItem="qqo-ui-oDQ" firstAttribute="leading" secondItem="Fh3-SP-hPQ" secondAttribute="leading" id="EWi-zP-gZP"/>
-                            <constraint firstItem="zf9-bo-gzS" firstAttribute="top" secondItem="qqo-ui-oDQ" secondAttribute="bottom" id="OEj-Y7-0jd"/>
-                            <constraint firstAttribute="trailing" secondItem="qqo-ui-oDQ" secondAttribute="trailing" id="tgL-5Q-kKL"/>
+                            <constraint firstItem="qqo-ui-oDQ" firstAttribute="leading" secondItem="Fh3-SP-hPQ" secondAttribute="leading" id="32I-G4-3ZY"/>
+                            <constraint firstItem="qqo-ui-oDQ" firstAttribute="top" secondItem="Fh3-SP-hPQ" secondAttribute="top" id="Ptj-op-7wu"/>
+                            <constraint firstAttribute="trailing" secondItem="qqo-ui-oDQ" secondAttribute="trailing" id="XKm-EK-llX"/>
+                            <constraint firstAttribute="bottom" secondItem="qqo-ui-oDQ" secondAttribute="bottom" constant="20" symbolic="YES" id="ecZ-tT-ysQ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -39,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-0.8" y="0.0"/>
         </scene>
     </scenes>
 </document>
